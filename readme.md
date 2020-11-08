@@ -12,14 +12,14 @@ Dalam melakukan transaksi, sistem ini memiliki beberapa tahapan. Admin harus har
 
 Download [program](https://codeload.github.com/ezaaputra/ecommerce-tirtamanik/zip/master).
 
-* Extract ecommerce-tirtamanik-master.zip kedalam folder bernama tirtamanik
-* Letakkan folder tirtamanik kedalam C:\xampp\htdocs
+* Extract ecommerce-tirtamanik-master.zip
+* Letakkan folder ecommerce-tirtamanik-master kedalam C:\xampp\htdocs
 * Nyalakan server apache dan mysql pada xampp
 * Buka browser dan pergi ke alamat localhost/phpmyadmin
-* Import tirtamanik_db.sql (ada di dalam folder) kedalam database phpMyAdmin
+* Import tirtamanik_db.sql (ada di dalam folder) kedalam database pada phpMyAdmin
 
 ## Usage
 
 Buka browser dan akses halaman berikut
-* Halaman user: localhost/tirtamanik
-* Halaman admin: localhost/tirtamanik/login (username: eza.a.putra | password: 123)
+* Halaman user: localhost/ecommerce-tirtamanik-master
+* Halaman admin: localhost/ecommerce-tirtamanik-master/login (username: eza.a.putra | password: 123)
