@@ -1,70 +1,32 @@
 ###################
-What is CodeIgniter
+Website Ecommerce Tirta Manik
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+Sistem informasi penjualan ini ditujukan untuk memudahkan pemilik Toko Tirta Manik dalam melakukan transaksi secara online serta memudahkan dalam melakukan pengolahan laporan transaksi. Sistem ini terbagi menjadi dua bagian, yaitu bagian admin dan bagian user. Admin pada sistem ini adalah pihak pengelola toko sedangkan user adalah pihak pembeli. Pada bagian admin terdapat menu transaksi, produk, data rekening, pengguna, dan konfigurasi web. Pada bagian user terdapat menu kategori produk, keranjang belanja, dan pengaturan akun. Pada menu pengaturan akun terdapat menu riwayat belanja serta pengaturan profil akun user.
 
-*******************
-Release Information
-*******************
-
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
-
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Dalam melakukan transaksi, sistem ini memiliki beberapa tahapan. Admin harus harus terlebih dahulu melakukan konfigurasi website user dan memasukkan data produk. Setelah data dimasukkan, pembeli dapat melihat produk dan memasukkan produk ke keranjang melalui halaman user. Pembeli baru dapat melakukan pemesanan produk yang telah dimasukkan ke keranjang setelah melakukan login. Pemilik toko akan menerima laporan pemesanan barang pada menu admin.
 
 *******************
 Server Requirements
 *******************
 
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+* XAMPP v3.2.4 (PHP 7.4)
 
 ************
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+Download [program](https://codeload.github.com/ezaaputra/ecommerce-tirtamanik/zip/master).
 
-*******
-License
-*******
+* Extract ecommerce-tirtamanik-master.zip kedalam folder bernama tirtamanik
+* Letakkan folder tirtamanik kedalam C:\xampp\htdocs
+* Nyalakan server apache dan mysql pada xampp
+* Buka browser dan pergi ke alamat localhost/phpmyadmin
+* Import tirtamanik_db.sql (ada di dalam folder) kedalam database phpMyAdmin
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
 
-*********
-Resources
-*********
+## Usage
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Buka browser dan akses halaman berikut
+Halaman user: localhost/tirtamanik
+Halaman admin: localhost/login
