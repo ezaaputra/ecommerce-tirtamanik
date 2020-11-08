@@ -29,6 +29,6 @@ Download [program](https://codeload.github.com/ezaaputra/ecommerce-tirtamanik/zi
 Usage
 ************
 
-Buka browser dan akses halaman berikut
-Halaman user: localhost/tirtamanik
-Halaman admin: localhost/login
+* Buka browser dan akses halaman berikut
+* Halaman user: localhost/tirtamanik
+* Halaman admin: localhost/login
