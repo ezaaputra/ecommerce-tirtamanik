@@ -25,7 +25,9 @@ Download [program](https://codeload.github.com/ezaaputra/ecommerce-tirtamanik/zi
 * Import tirtamanik_db.sql (ada di dalam folder) kedalam database phpMyAdmin
 
 
-## Usage
+************
+Usage
+************
 
 Buka browser dan akses halaman berikut
 Halaman user: localhost/tirtamanik
