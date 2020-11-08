@@ -19,7 +19,7 @@ Installation
 Download [program](https://codeload.github.com/ezaaputra/ecommerce-tirtamanik/zip/master).
 
 * Extract ecommerce-tirtamanik-master.zip kedalam folder bernama tirtamanik
-* Letakkan folder tirtamanik kedalam C:\xampp\htdocs
+* Letakkan folder tirtamanik kedalam C:/xampp/htdocs
 * Nyalakan server apache dan mysql pada xampp
 * Buka browser dan pergi ke alamat localhost/phpmyadmin
 * Import tirtamanik_db.sql (ada di dalam folder) kedalam database phpMyAdmin
