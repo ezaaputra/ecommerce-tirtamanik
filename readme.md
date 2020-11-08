@@ -22,4 +22,4 @@ Download [program](https://codeload.github.com/ezaaputra/ecommerce-tirtamanik/zi
 
 Buka browser dan akses halaman berikut
 * Halaman user: localhost/tirtamanik
-* Halaman admin: localhost/login
+* Halaman admin: localhost/tirtamanik/login (username: eza.a.putra | password: 123)
